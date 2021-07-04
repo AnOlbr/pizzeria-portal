@@ -65,7 +65,7 @@ const Tables = () => (
       id="date"
       label="Date"
       type="date"
-      defaultValue="2021-06-07"
+      defaultValue="2021-07-04"
       InputLabelProps={{
         shrink: true,
       }}
@@ -82,10 +82,6 @@ const Tables = () => (
             <TableCell>Table 3</TableCell>
             <TableCell>Options</TableCell>
             <TableCell>Table 4</TableCell>
-            <TableCell>Options</TableCell>
-            <TableCell>Table 5</TableCell>
-            <TableCell>Options</TableCell>
-            <TableCell>Table 6</TableCell>
             <TableCell>Options</TableCell>
           </TableRow>
         </TableHead>
@@ -125,17 +121,6 @@ const Tables = () => (
               </TableCell>
               <TableCell>
                 {row.status}
-              </TableCell>
-              <TableCell>
-                {renderActions(row.status)}
-                {renderActions(row.event)}
-              </TableCell>
-              <TableCell>
-                {row.status}
-              </TableCell>
-              <TableCell>
-                {renderActions(row.status)}
-                {renderActions(row.event)}
               </TableCell>
             </TableRow>
           ))}
